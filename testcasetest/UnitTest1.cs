@@ -18,7 +18,7 @@ namespace NUnitTest
             Assert.AreEqual(expected, mc.Largest(arr));
         }
 
-        #region 数据部分
+        #region 
         static object[] LargestCases =
         {
             new object[] {new int[]{1,2,3,4},4},
